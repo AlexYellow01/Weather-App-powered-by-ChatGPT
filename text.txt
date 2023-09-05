@@ -1,0 +1,3 @@
+In this project, I developed a modern weather application using the OpenWeather API, which was facilitated by ChatGPT, and implemented it using HTML, CSS, and JavaScript. This project provided me with a deeper understanding of how APIs function and how to integrate them using JavaScript.
+
+Upon loading the page, you'll encounter an engaging GIF of a rotating Earth, along with an input field to enter the desired city and a corresponding button. Once you input the city name, the GIF will smoothly transition to the left, revealing essential weather information such as temperature, humidity, sunrise/sunset times, atmospheric pressure, and more in a visually appealing manner.
