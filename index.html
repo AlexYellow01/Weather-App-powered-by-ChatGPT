@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gif-container">
+            <iframe src="https://giphy.com/embed/3o7WIB00yXujVt4WEo" width="480" height="480" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+        </div>
+        <div class="black-screen"></div>
+        <div class="input-container">
+            <h1>Weather App</h1>
+            <input type="text" id="cityInput" placeholder="City">
+            <button id="getWeatherButton">Obtain Weather</button>
+        </div>
+    </div>
+    <div id="weatherInfo"></div> <!-- Acest div este mutat în afara containerului principal -->
+    <script src="script.js"></script>
+</body>
+</html>
